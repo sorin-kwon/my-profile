@@ -1,0 +1,100 @@
+body{
+	background-color: #222831;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 16px;
+}
+
+a{
+	text-decoration: none;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 18px
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 800px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+
+.card-main{
+	background-color: #393e46;
+	box-shadow: 0px 10px 30px rgb(0,0,0.1);
+	text-align: center;
+	color: #00adb5;
+	margin: 50px 20px
+	font-size: 25px;
+	padding: 20px;
+	border-radius: 4px
+}
+
+.intro-white{
+	color: #eeeeee
+}
+
+.card-gray{
+	text-align: center;
+	padding: 20px;
+	margin: 20px 20px;
+}
+
+.btn-purple{
+	background-color: #00adb5;
+	color: #eeeeee;
+	padding: 15px 20px;
+	border-radius: 4px;
+	text-align: center;
+}
+
+.btn-purple:hover{
+	background-color: #eeeeee;
+	color: black;
+}
+
+.img-circle{
+	display: inline; 
+	vertical-align: middle; 
+	width: 300px;
+	height: 350px;
+	border-radius: 50%;
+	border-style: solid;
+	border-color: #eeeeee;
+}
+
+.list-inline{
+	list-style: none;
+	display: inline;
+	padding-left: 0px;
+	text-align: center;
+}
+
+.list-inline > li {
+	list-style: none;
+	display: inline;
+	padding-left: 0px;
+	text-align: center;
+}
+
+.icon-facebook{
+	width: 265px
+	height: 265px;
+}
+
+.icon-instagram{
+	width: 265px;
+	height: 265px;
+}
